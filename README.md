@@ -11,9 +11,8 @@ Qremis is a [PREMIS](http://www.loc.gov/standards/premis/) fork with different d
 # What is qremis' relation to PREMIS?
 
 PREMIS is "upstream" of qremis, in the software development sense.
-```
-When talking about a branch or a fork, the primary branch on the original repository is often referred to as the "upstream", since that is the main place that other changes will come in from.
-```
+
+> When talking about a branch or a fork, the primary branch on the original repository is often referred to as the "upstream", since that is the main place that other changes will come in from.
 [Source](https://help.github.com/articles/github-glossary/)
 
 Qremis aims to merge changes to relevant portions of PREMIS into it's own data model in a reasonable timeframe, when they become available, but maintains the freedom to disregard or refactor changes which would violate design paradigms or standing workflows.
