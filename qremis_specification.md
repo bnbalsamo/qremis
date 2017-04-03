@@ -17,7 +17,7 @@ It's also probably subject to mispellings, because this is quite a bit of text.
       - significantPropertiesType (O, NR)
       - significantPropertiesValue (O, NR)
       - significantPropertiesExtension (O, R)
-    - objectCharacteristics
+    - objectCharacteristics (M, R)
       - compositionLevel (O, NR)
       - fixity (O, R)
         - messageDigestAlgorithm (M, NR)
@@ -110,7 +110,7 @@ It's also probably subject to mispellings, because this is quite a bit of text.
     - eventDetailInformation (O, R)
       - eventDetail (O, NR)
       - eventDetailExtension (O, R)
-    - eventOutcomeInformation
+    - eventOutcomeInformation (O, R)
       - eventOutcome (O, NR)
       - eventOutcomeDetail (O, R)
         - eventOutcomeDetailNote (O, NR)
@@ -119,7 +119,7 @@ It's also probably subject to mispellings, because this is quite a bit of text.
       - linkingRelationshipIdentifierType (M, NR)
       - linkingRelationshipIdentifierValue (M, NR)
     - eventExtension (O, R)
-  - agent
+  - agent (O, R)
     - agentIdentifier (M, R)
       - agentIdentifierType (M, NR)
       - agentIdentifierValue (M, NR)
@@ -131,8 +131,8 @@ It's also probably subject to mispellings, because this is quite a bit of text.
       - linkingRelationshipIdentifierType (M, NR)
       - linkingRelationshipIdentifier Value (M, NR)
     - agentExtension (O, R)
-  - rights
-    - rightsIdentifier (M, R) 
+  - rights (O, R)
+    - rightsIdentifier (M, R)
       - rightsIdentifierType (M, NR)
       - rightsIdentifierValue (M, NR)
     - rightsStatement (O, R)
@@ -162,7 +162,7 @@ It's also probably subject to mispellings, because this is quite a bit of text.
         - licenseApplicableDates (O, NR)
           - startDate (O, NR)
           - endDate (O, NR)
-      - statuteInformation
+      - statuteInformation (O, R)
         - statuteJurisdiction (M, NR)
         - statuteCitation (M, NR)
         - statuteInformationDeterminationDate (O, NR)
