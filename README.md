@@ -19,6 +19,10 @@ Qremis aims to merge changes to relevant portions of PREMIS into it's own data m
 
 Qremis (at the moment) aims to be compatible (though not necessarily losslessly) with PREMIS metadata records.
 
+# How is qremis different from PREMIS?
+
+See (justifications)[./blob/master/justifications.md] for formalized differences and the justifications for them, and (the github issues page for this repository)[./issues] for ongoing discussion of changes.
+
 # Who runs qremis?
 
 Hi - I'm [Brian](mailto:balsamo@uchicago.edu) the primary qremis maintainer (at the moment).
