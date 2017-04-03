@@ -132,7 +132,7 @@ This differs from the PREMIS specification's assertion that link direction is no
 ## Identifier Cardinality Changes
 
 In the standing PREMIS specification (v3) objectIdentifiers and agentIdentifiers are repeatable, while
-rightsStatementIdentifiers and eventIdentifiers are not. This different results in inconsistancy in the
+rightsStatementIdentifiers and eventIdentifiers are not. This difference results in inconsistancy in the
 interface of the data model when it comes to identifiers - arguably the most critical part of the entirety
 of the specification.
 
