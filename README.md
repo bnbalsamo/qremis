@@ -1,4 +1,8 @@
-# What is qremis?
+# Qremis
+
+v0.0.1
+
+## What is qremis?
 
 Qremis is a [PREMIS](http://www.loc.gov/standards/premis/) fork with different design goals. Qremis's design goals differ from PREMIS's in the following ways:
 
@@ -8,7 +12,7 @@ Qremis is a [PREMIS](http://www.loc.gov/standards/premis/) fork with different d
 - Qremis is a _data_ standard, not a standard for any particular serialization. The guiding principals for element definition are shared with the guiding principals for good object design in object oriented programming.
 - Qremis is designed to be primarily edited via appending new data.
 
-# What is qremis' relation to PREMIS?
+## What is qremis' relation to PREMIS?
 
 PREMIS is "upstream" of qremis, in the software development sense.
 
@@ -19,11 +23,11 @@ Qremis aims to merge changes to relevant portions of PREMIS into it's own data m
 
 Qremis (at the moment) aims to be compatible (though not necessarily losslessly) with PREMIS metadata records.
 
-# How is qremis different from PREMIS?
+## How is qremis different from PREMIS?
 
 See [justifications](justifications.md) for formalized differences and the justifications for them, and [the github issues page for this repository](https://github.com/bnbalsamo/qremis/issues) for ongoing discussion of changes.
 
-# Who runs qremis?
+## Who runs qremis?
 
 Hi - I'm [Brian](mailto:balsamo@uchicago.edu) the primary qremis maintainer (at the moment).
 
